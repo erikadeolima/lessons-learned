@@ -1,12 +1,21 @@
 #cabecalho {
-    background-color: rgb (14, 127, 25); /* Green background */
-    padding: 50px 10px; /* Some padding */
-    color: black;
-    text-align: center; /* Centered text */
-    font-size: 90px; /* Big font size */
-    font-weight: bold;
-    position: fixed; /* Fixed position - sit on top of the page */
-    top: 0;
-    width: 100%; /* Full width */
-    transition: 0.2s; /* Add a transition effect (when scrolling - and font size is decreased) */
-  }
+  background-color: rgb (253, 251, 251); /* Green background */
+  padding: 50px 10px; /* definição do distanciamento do elemento e suas bordas */
+  color: black; /*cor do texto*/
+  text-align: center; /* texto centralizado */
+  font-weight: bold;
+  line-height: 1.8
+  position: fixed; /* Posição fixa no topo da pagina */
+  top: 0;
+  width: 100%; /* O cabeçalho abrange toda a pagina de tamanho */
+  transition: 0.2s; /* Add a transition effect (when scrolling - and font size is decreased) */
+}
+
+#rodape {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: black;
+  text-align: center;
+}
