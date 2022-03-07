@@ -4,8 +4,8 @@
   color: black; /*cor do texto*/
   text-align: center; /* texto centralizado */
   font-weight: bold;
-  line-height: 1.8
-  position: fixed; /* Posição fixa no topo da pagina */
+  line-height: 1.8;
+  position:fixed; /* Posição fixa no topo da pagina */
   top: 0;
   width: 100%; /* O cabeçalho abrange toda a pagina de tamanho */
   transition: 0.2s; /* Add a transition effect (when scrolling - and font size is decreased) */
