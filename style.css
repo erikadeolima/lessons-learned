@@ -5,21 +5,22 @@
     body {
       background-color: rgb(253, 251, 251);
       margin: 65px 30px;
-      padding: 2,5em;
+      padding: 15px;
     }
     title {
-      font-family: 'Comic Sans MS', 'Comic Sans';
-      font-size: 47px;
-      background-color: rgb(255, 255, 255);
-      position: relative;
+      background-color: rgb(134, 128, 128);
+      position: fixed;
       width: 47px;
       height: 47px;
-      margin: 65px 30px;
-      padding: 320px 5px 50px 25px;
+      margin: 320px 30px 65px 60px;
+      padding: 5px 5px 50px 25px;
   }
   ul.nav{
-    margin: 0;
-    padding: 0%;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(134, 128, 128);
+    height: 55px;
+    width: 310px;
   }
   ul.nav li {
     list-style:none;	
@@ -27,10 +28,10 @@
 	}
   ul.nav li a {
     float:left;
-    border-top: 1em solid #fff;
-    border-right:1em solid #909090;
-    border-bottom:1em solid #909090;
-    border-left:1em solid #fff;
+    border-top: 1em solid rgb(255,255,255);
+    border-right:1em solid rgb(133, 133, 133);
+    border-bottom:1em solid rgb(133, 133, 133);
+    border-left:1em solid rgb(255,255,255);
     width:66px;
     font:1em  Verdana, Arial, Helvetica, 
     sans-serif;
@@ -41,25 +42,24 @@
     text-decoration:none;
     }
   ul.nav a:hover{
-    background:#999;
-    color:#fff;
-    border-color:#000 #fafafa #fafafa #000;
+    background: rgb(153,153,153);
+    color:white;
+    border-color:black rgb(238, 238, 238) rgb(238, 238, 238) black;
     }
 
   #nav-principal {
     background-color: rgb (230, 177, 177);
-    font-family: "Times New Roman", "Helvetica Neue", Helvetica, sans-serif;
-    font-size: 50%;
-    color: black; /*cor do texto*/
-    text-align: center; /* texto centralizado */
-    font-weight: bold;
-    line-height: 1.8;
     position:fixed; /* Posição fixa no topo da pagina */
     top: 0;
     width: 100%; /* O cabeçalho abrange toda a pagina de tamanho */
   }
 
 #cabecalho {
+  margin: 10px;
+  padding: 10px;
+  background-color: rgb(134, 128, 128);
+  height: 55px;
+  width: 310px;
   background-color: rgb (230, 177, 177);
   padding: 10px 10px; /* definição do distanciamento do elemento e suas bordas */
   color: black; /*cor do texto*/
