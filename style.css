@@ -1,24 +1,71 @@
 * {
-  font-family: 'Inter', sans-serif;
-  color: #fff;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgb(73, 2, 2);
 }    
     body {
       background-color: rgb(253, 251, 251);
+      margin: 65px 30px;
+      padding: 2,5em;
     }
     title {
-      background-color: rgb(230, 177, 177);
-      width: 400px;
-      height: 400px;
-      margin: auto;
+      font-family: 'Comic Sans MS', 'Comic Sans';
+      font-size: 47px;
+      background-color: rgb(255, 255, 255);
+      position: relative;
+      width: 47px;
+      height: 47px;
+      margin: 65px 30px;
+      padding: 320px 5px 50px 25px;
+  }
+  ul.nav{
+    margin: 0;
+    padding: 0%;
+  }
+  ul.nav li {
+    list-style:none;	
+	  display:inline-start; /* define que a lista ficara em linha, ou seja, na horizontal*/
+	}
+  ul.nav li a {
+    float:left;
+    border-top: 1em; solid #fff;
+    border-right:1em solid #909090;
+    border-bottom:1em solid #909090;
+    border-left:1em solid #fff;
+    width:66px;
+    font:1em  Verdana, Arial, Helvetica, 
+    sans-serif;
+    background:#f1f1f1;
+    color:#333;
+    text-align:center;
+    padding:10px;
+    text-decoration:none;
+    }
+  ul.nav a:hover{
+    background:#999;
+    color:#fff;
+    border-color:#000 #fafafa #fafafa #000;
+    }
+
+  #nav-principal {
+    background-color: rgb (230, 177, 177);
+    font-family: "Times New Roman", "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 50%;
+    color: black; /*cor do texto*/
+    text-align: center; /* texto centralizado */
+    font-weight: bold;
+    line-height: 1.8;
+    position:fixed; /* Posição fixa no topo da pagina */
+    top: 0;
+    width: 100%; /* O cabeçalho abrange toda a pagina de tamanho */
   }
 
 #cabecalho {
   background-color: rgb (230, 177, 177);
-  padding: 30px 10px; /* definição do distanciamento do elemento e suas bordas */
+  padding: 10px 10px; /* definição do distanciamento do elemento e suas bordas */
   color: black; /*cor do texto*/
   text-align: center; /* texto centralizado */
   font-weight: bold;
-  line-height: 1.8;
+  line-height: 1;
   position:fixed; /* Posição fixa no topo da pagina */
   top: 0;
   width: 100%; /* O cabeçalho abrange toda a pagina de tamanho */
