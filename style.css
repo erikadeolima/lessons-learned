@@ -1,6 +1,20 @@
+* {
+  font-family: 'Inter', sans-serif;
+  color: #fff;
+}    
+    body {
+      background-color: rgb(253, 251, 251);
+    }
+    title {
+      background-color: rgb(230, 177, 177);
+      width: 400px;
+      height: 400px;
+      margin: auto;
+  }
+
 #cabecalho {
-  background-color: rgb (253, 251, 251); /* Green background */
-  padding: 50px 10px; /* definição do distanciamento do elemento e suas bordas */
+  background-color: rgb (230, 177, 177);
+  padding: 30px 10px; /* definição do distanciamento do elemento e suas bordas */
   color: black; /*cor do texto*/
   text-align: center; /* texto centralizado */
   font-weight: bold;
@@ -8,7 +22,6 @@
   position:fixed; /* Posição fixa no topo da pagina */
   top: 0;
   width: 100%; /* O cabeçalho abrange toda a pagina de tamanho */
-  transition: 0.2s; /* Add a transition effect (when scrolling - and font size is decreased) */
 }
 
 #rodape {
