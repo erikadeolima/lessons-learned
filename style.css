@@ -1,58 +1,57 @@
 * {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   color: rgb(73, 2, 2);
-}    
-    body {
-      background-color: rgb(253, 251, 251);
-      margin: 65px 30px;
-      padding: 15px;
-    }
-    title {
-      background-color: rgb(134, 128, 128);
-      position: fixed;
-      width: 47px;
-      height: 47px;
-      margin: 320px 30px 65px 60px;
-      padding: 5px 5px 50px 25px;
-  }
-  ul.nav{
-    margin: 10px;
-    padding: 10px;
-    background-color: rgb(134, 128, 128);
-    height: 55px;
-    width: 310px;
-  }
-  ul.nav li {
-    list-style:none;	
-	  display:inline-start; /* define que a lista ficara em linha, ou seja, na horizontal*/
-	}
-  ul.nav li a {
-    float:left;
-    border-top: 1em solid rgb(255,255,255);
-    border-right:1em solid rgb(133, 133, 133);
-    border-bottom:1em solid rgb(133, 133, 133);
-    border-left:1em solid rgb(255,255,255);
-    width:66px;
-    font:1em  Verdana, Arial, Helvetica, 
-    sans-serif;
-    background:#f1f1f1;
-    color:#333;
-    text-align:center;
-    padding:10px;
-    text-decoration:none;
-    }
-  ul.nav a:hover{
-    background: rgb(153,153,153);
-    color:white;
-    border-color:black rgb(238, 238, 238) rgb(238, 238, 238) black;
-    }
+}
+body {
+  background-color: rgb(253, 251, 251);
+  margin: 65px 30px;
+  padding: 15px;
+}
+title {
+  background-color: rgb(134, 128, 128);
+  position: fixed;
+  width: 47px;
+  height: 47px;
+  margin: 320px 30px 65px 60px;
+  padding: 5px 5px 50px 25px;
+}
+ul.nav {
+  margin: 10px;
+  padding: 10px;
+  background-color: rgb(134, 128, 128);
+  height: 55px;
+  width: 310px;
+}
+ul.nav li {
+  list-style: none;
+  display: inline-start; /* define que a lista ficara em linha, ou seja, na horizontal*/
+}
+ul.nav li a {
+  float: left;
+  border-top: 1em solid rgb(255, 255, 255);
+  border-right: 1em solid rgb(133, 133, 133);
+  border-bottom: 1em solid rgb(133, 133, 133);
+  border-left: 1em solid rgb(255, 255, 255);
+  width: 66px;
+  font: 1em Verdana, Arial, Helvetica, sans-serif;
+  background: whitesmoke;
+  color: rgb(51, 51, 51);
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+}
+ul.nav a:hover {
+  background: rgb(153, 153, 153);
+  color: white;
+  border-color: black rgb(238, 238, 238) rgb(238, 238, 238) black;
+}
 
-  #nav-principal {
-    background-color: rgb (230, 177, 177);
-    position:fixed; /* Posição fixa no topo da pagina */
-    top: 0;
-    width: 100%; /* O cabeçalho abrange toda a pagina de tamanho */
-  }
+#nav-principal {
+  background-color: rgb (230, 177, 177);
+  position: fixed; /* Posição fixa no topo da pagina */
+  top: 0;
+  width: 100%; /* O cabeçalho abrange toda a pagina de tamanho */
+}
 
 #cabecalho {
   margin: 10px;
@@ -66,7 +65,7 @@
   text-align: center; /* texto centralizado */
   font-weight: bold;
   line-height: 1;
-  position:fixed; /* Posição fixa no topo da pagina */
+  position: fixed; /* Posição fixa no topo da pagina */
   top: 0;
   width: 100%; /* O cabeçalho abrange toda a pagina de tamanho */
 }
