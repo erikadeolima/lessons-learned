@@ -27,7 +27,7 @@
 	}
   ul.nav li a {
     float:left;
-    border-top: 1em; solid #fff;
+    border-top: 1em solid #fff;
     border-right:1em solid #909090;
     border-bottom:1em solid #909090;
     border-left:1em solid #fff;
