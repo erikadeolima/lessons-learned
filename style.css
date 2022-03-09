@@ -1,79 +1,96 @@
 * {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  color: rgb(162, 71, 201);
-}
-body {
-  background-color: rgb(253, 251, 251);
-  margin: 65px 30px;
-  padding: 15px;
+  font-family: 'Comic Sans MS', 'Comic Sans';
+  color: rgb(92, 62, 48);
+  line-height: 120%;
 }
 #cabecalho {
-  margin: 1.5px;
-  padding: 10px;
-  background-color: rgb(255, 248, 223);
-  height: 71px;
-  width: 55px;
-  background-color: rgb (230, 177, 177);
-  padding: 10px 10px; /* definição do distanciamento do elemento e suas bordas */
-  text-decoration-color: rgb(144, 114, 252);
-  text-align: center; /* texto centralizado */
-  font-weight: bold;
-  line-height: 1px;
-  position: fixed; /* Posição fixa no topo da pagina */
+  /* Posição fixa no topo da pagina */
+  position: fixed;
   top: 0;
-  width: 100%; /* O cabeçalho abrange toda a pagina de tamanho */
+  background-color: rgb(70, 156, 42);
+  /* texto centralizado */
+  text-align: center;
+  font-size: medium;
+  height: 100px;
+  width: 100%;
 }
 ul.nav {
-  margin: 1.5px;
+  list-style: none;
   padding: 10px;
-  background-color: rgb(255, 248, 223);
-  height: 71px;
-  position: relative;
+  background-color: rgb(70, 156, 42);
+  width: 100%;
+  height: 40px;
 }
-ul.nav li {
-  list-style: none; /*retira a cara de lista god botoes, assim ficando só o texto que será formatado posteriormente */
-  display: inline-start; /* define que a lista ficara em linha, ou seja, na horizontal*/
+.ul.nav li {
+  list-style-type:none;
+  display:inline-start;
 }
 ul.nav li a {
-  float: left;
-  border-top: 1em solid rgb(255, 248, 223);
-  border-right: 1em solid rgb(253, 236, 177);
-  border-bottom: 1em solid rgb(201, 159, 71);
-  border-left: 1em solid rgb(255, 248, 223);
-  width: 66px;
-  height: 30px;
-  font: 10px "Comic Sans MS", Arial, Helvetica, sans-serif;
-  background: rgb(255, 248, 223);
-  color: rgb(144,128,150);
+  border-top: 1em solid rgb(202, 169, 153);
+  border-right: 1em solid rgb(201, 147, 122);
+  border-bottom: 1em solid rgb(165, 121, 100);
+  border-left: 1em solid rgb(202, 169, 153);
+  height: 25px;
+  width: 450px;
+  font-size: 10px;
+  background: rgb(202, 163, 144);
+  color: rgb(92, 62, 48);
   text-align: center;
   padding: 10px;
   text-decoration: none;
 }
 ul.nav a:hover {
-  background: rgb(255, 248, 223);
-  color: rgb(182, 142, 199);
-  border-color: rgb(201, 159, 71)rgb(255, 248, 223)rgb(255, 248, 223) rgb(201, 159, 71);
+  background: rgb(202, 163, 144);
+  color: rgb(92, 62, 48);
+  border-color: rgb(165, 121, 100) rgb(202, 169, 153)rgb(202, 169, 153) rgb(201, 147, 122);
 }
-
-#nav-principal {
-  background-color: rgb (230, 177, 177);
-  position: fixed; /* Posição fixa no topo da pagina */
-  top: 0;
-  width: 345px; /* O cabeçalho abrange toda a pagina de tamanho */
+.nav-principal {
+  position: fixed;
+  margin-top: 0;
+  width: 100%; /* O cabeçalho abrange toda a pagina de tamanho */
 }
-
 #minha_foto {
-  align-items:unset;
-  position:static;
-  border-radius: 45%;
+  float: right;
+  align-items: flex-start;
+  border-radius: 50%;
 }
-
+body {
+  background-color: rgb(253, 251, 251);
+  margin: 0px 30px 30px 30px;
+  padding-top: 80px;
+}
+#table_licoes_aprendidas {
+  width: 300px;
+  float: left;
+}
+#licoes_aprendidas {
+  width: 300px;
+  float: left;
+}
+#table_#licoes_a_aprender{
+  width: 300px;
+  float: right;
+}
+#licoes_a_aprender{
+  width: 300px;
+  float: right;
+}
+.lado-esquerdo {
+  width: 50%;
+  float: left;
+  margin-bottom: 10px;
+}
+.lado-direito {
+  padding: 5px 0px 0px 0px;
+  width: 50%;
+  height: 172.76px;
+  float: right;
+}
 #rodape {
   position: fixed;
-  left: 0;
-  bottom: 0;
+  bottom: 0px;
   width: 100%;
-  color: rgb(144, 114, 252);
+  background-color: rgb(70, 156, 42);
   text-align: center;
-  background-color: rgb(255, 248, 223);
+  text-decoration: none;
 }
