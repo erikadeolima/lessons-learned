@@ -62,17 +62,9 @@ body {
   background-color: rgb(253, 251, 251);
   margin: 200px 30px 30px 30px;
 }
-#table_licoes_aprendidas {
-  width: 300px;
-  float: left;
-}
 #licoes_aprendidas {
   width: 300px;
   float: left;
-}
-#table_#licoes_a_aprender{
-  width: 300px;
-  float: right;
 }
 #licoes_a_aprender{
   width: 300px;
