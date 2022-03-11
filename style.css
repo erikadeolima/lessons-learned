@@ -11,13 +11,16 @@
   /* texto centralizado */
   text-align: center;
   font-size: medium;
+  /*mantem o item auto ajustavel ao altura da tela*/
   height: 100px;
+  /*mantem o item auto ajustavel ao largura da tela*/
   width: 100%;
 }
 ul.nav {
+  background-color: rgb(70, 156, 42); 
+  /*retira a formatacao de lista*/
   list-style: none;
   padding: 10px;
-  background-color: rgb(70, 156, 42);
   width: 100%;
   height: 40px;
 }
@@ -26,6 +29,7 @@ ul.nav {
   display:inline-start;
 }
 ul.nav li a {
+  text-decoration: none;
   border-top: 1em solid rgb(202, 169, 153);
   border-right: 1em solid rgb(201, 147, 122);
   border-bottom: 1em solid rgb(165, 121, 100);
@@ -37,7 +41,6 @@ ul.nav li a {
   color: rgb(92, 62, 48);
   text-align: center;
   padding: 10px;
-  text-decoration: none;
 }
 ul.nav a:hover {
   background: rgb(202, 163, 144);
@@ -50,14 +53,14 @@ ul.nav a:hover {
   width: 100%; /* O cabeçalho abrange toda a pagina de tamanho */
 }
 #minha_foto {
-  float: right;
-  align-items: flex-start;
+  position: fixed;
+  top: 0;
+  /*arredonda as margens da minha imagem*/
   border-radius: 50%;
 }
 body {
   background-color: rgb(253, 251, 251);
-  margin: 0px 30px 30px 30px;
-  padding-top: 80px;
+  margin: 200px 30px 30px 30px;
 }
 #table_licoes_aprendidas {
   width: 300px;
