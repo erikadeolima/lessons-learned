@@ -21,10 +21,13 @@
 
 </head>
 <body>
+  <!--Header indica meu cabealho da pag, O "titulo" visivel-->
   <header id="cabecalho">
     <h1 id="titulo">Lições aprendidas - Trybe!</h1>
   </header>
-  <!--Criação de um menu horizontal referencia https://www.maujor.com/tutorial/barrabotao.php-->
+  <!--Criação de um menu horizontal referencia https://www.maujor.com/tutorial/barrabotao.php
+  O nav marca um menu de navegação, o ul a indicação que o que vem a seguir é uma lista e o li indica os itens de cada lista
+  -->
   <nav id="nav-principal">
     <ul class="nav">
       <li><a href="#licoes_aprendidas">Lições aprendidas</a></li>
@@ -32,14 +35,20 @@
       <li><a href="#minha_trilha">Minha trilha de aprendizado</a></li>
     </ul>
   </nav>
-  
-  <img id="minha_foto" src="images/BB165EB4-11B8-4965-9DA0-205D17EEDE5F.jpeg" width="100px"
-    alt="foto de uma mulher, esta mulher seria a erika lima"></img>
+  <!--
+    Criei uma "seção" figura para indicar que tenho uma imagem na pag
+  -->
+  <figure>
+    <img id="minha_foto" src="images/BB165EB4-11B8-4965-9DA0-205D17EEDE5F.jpeg" width="100px"
+    \n alt="foto de uma mulher, esta mulher seria a erika lima"></img>
+  </figure>
+  <!--Indica a criação de uma tabela, aqui usada para acomodar o tiulo da lista-->
   <table>
     <tr>
       <th><b>Lições já aprendidas</b></th>
     </tr>
   </table>
+  <!--Criacao de uma lista numerada-->
   <ol id="licoes_aprendidas">
     <li>Unix & Bash</li>
     <li>Comandos Básicos no terminal</li>
@@ -57,6 +66,7 @@
       <th><b>Lições a aprender</b></th>
     </tr>
   </table>
+  <!--Criacao de uma lista n numerada-->
   <ul id="licoes_a_aprender">
     <li>JavaScript</li>
     <li>Python</li>
@@ -69,6 +79,7 @@
     <li>PDI</li>
     <li>Lidrança</li>
   </ul>
+  <!--Section marca a separacão de itens criando uma estrutura ordenada, assim facilitando a formatação do cod no momento da exibição-->
   <section class="lado-esquerdo">
     <article>
       <h2 id="minha_trilha">Minha trilha de aprendizado</h2>
@@ -76,10 +87,12 @@
     </article>
   </section>
   <section class="lado-direito">
+    <!--Aside indica um iten complementar ao conteudo anterior, mas em um nivel diferente, assim a secao anterior é "superior" a essa-->
     <aside><p>Tenho vibrado com cada conquista, por menor que seja, e isto me faz querer ainda mais buscar pela minha formação. A cada problema resolvido, entendimento do conteúdo tem me motivado ainda mais. Claro que hápercalços, mas tenho aprendido até a reconhecer que as falhas fazem parte do crescimento.</p>
     </aside>
   </section>
 </body>
+<!--Indica o rodape e auxilia na marcação dos niveis de formatação-->
 <footer id="rodape">
   ©Todos direitos reservados -
   <!-- href cria o link entre a palavra entre a tag <a> e o target é uma atributo que indica qual a ação ao clicar no link, nesse caso indica, que irá abrir uma nova guia com o link de redirecionamento-->
