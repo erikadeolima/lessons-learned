@@ -4,16 +4,20 @@
   line-height: 120%;
 }
 #cabecalho {
-  /* Posição fixa no topo da pagina */
+  display: block;
+  /* Posição fixa em um local da pagina */
   position: fixed;
+  /*Fixa a posição anterior no topo da página*/
   top: 0;
+  /*altera a cor de fundo desse objeto em especifico*/
   background-color: rgb(70, 156, 42);
   /* texto centralizado */
   text-align: center;
+  /*altera o tamanho da pag para 120px*/
   font-size: medium;
-  /*mantem o item auto ajustavel ao altura da tela*/
+  /*altera o tamanho do objeto, para 100% do texto*/
   height: 100px;
-  /*mantem o item auto ajustavel ao largura da tela*/
+  /*mantem o objeto da largura da pagina, sendo auto ajustavel ao tamanho, ou seja responsivo*/
   width: 100%;
 }
 ul.nav {
